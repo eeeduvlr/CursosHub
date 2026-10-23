@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CursosHub — descubra seu próximo passo</title>
+<meta name="description" content="Descubra cursos que combinam com seus interesses, valores e jeito de aprender.">
+<meta name="theme-color" content="#315b45">
+
+<!-- Compartilhamento: troque og:image por a URL completa depois de publicar o site -->
+<meta property="og:type" content="website">
+<meta property="og:locale" content="pt_BR">
+<meta property="og:title" content="CursosHub — descubra seu próximo passo">
+<meta property="og:description" content="Responda algumas perguntas e explore cursos que combinam com seus interesses. Um ponto de partida para pesquisar melhor.">
+<meta property="og:image" content="og-image.png">
+<meta property="og:image:alt" content="CursosHub: antes de escolher um curso, explore as possibilidades.">
+<meta name="twitter:card" content="summary_large_image">
+
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#app">Pular para o questionário</a>
+
+<div class="shell">
+  <header class="nav">
+    <div class="brand">Cursos<span class="brand-accent">Hub</span></div>
+    <div class="nav-note">Orientação para escolher</div>
+  </header>
+
+  <section class="hero" aria-labelledby="hero-title">
+    <div>
+      <div class="eyebrow">Um guia para escolher com mais clareza</div>
+      <h1 id="hero-title">Antes de escolher um curso, <span>explore as possibilidades.</span></h1>
+      <p>Responda algumas perguntas, compare áreas e entenda por que certos cursos podem combinar com você. Não é um teste definitivo — é um ponto de partida para pesquisar melhor.</p>
+    </div>
+    <aside class="hero-art" aria-label="Como este guia funciona">
+      <div class="hero-stat"><strong id="courseCount">22</strong><span>áreas de formação para explorar</span></div>
+      <div class="hero-stat hero-stat-small"><strong id="institutionCount">9</strong><span>faculdades com dados e fontes</span></div>
+      <div class="float">Seu ritmo<b>Sem pressão <span aria-hidden="true">✦</span></b></div>
+      <div class="float">Explorar possibilidades<b>Um passo de cada vez</b></div>
+      <div class="float float-accent">Novos caminhos <span aria-hidden="true">↗</span></div>
+    </aside>
+  </section>
+
+  <main class="app" id="app" tabindex="-1">
+    <div class="app-top">
+      <div class="app-label">Questionário de interesses</div>
+      <div class="step-label" id="stepLabel">Vamos começar</div>
+    </div>
+    <div class="progress-wrap" role="progressbar" aria-label="Progresso do questionário" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" id="progressbar">
+      <div class="progress" id="progress"></div>
+    </div>
+    <div class="content" id="quiz">
+      <noscript><p>Este guia precisa de JavaScript para funcionar. Ative o JavaScript no navegador e recarregue a página.</p></noscript>
+    </div>
+    <div class="content hidden" id="results"></div>
+  </main>
+
+  <footer class="footer">
+    <span>CursosHub · Guia exploratório de cursos</span>
+    <span>Compare grades curriculares, converse com estudantes e conheça a rotina da profissão.</span>
+  </footer>
+</div>
+
+<p class="sr-only" id="live" role="status" aria-live="polite"></p>
+
+<script src="data.js"></script>
+<script src="institutions.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
