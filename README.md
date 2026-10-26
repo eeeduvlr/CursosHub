@@ -4,6 +4,8 @@ Guia interativo para quem está escolhendo um curso superior. A pessoa responde 
 
 > **Não é um teste vocacional.** O site usa regras simples de compatibilidade e diz isso claramente na tela de resultado. Ele é um ponto de partida para pesquisar, não uma avaliação científica.
 
+**Site ao vivo:** https://cursoshub.vercel.app/
+
 ![Tela inicial](screenshots/01-inicio.png)
 
 ## O que o projeto faz
@@ -20,6 +22,8 @@ Guia interativo para quem está escolhendo um curso superior. A pessoa responde 
 | Pergunta | Resultado |
 | --- | --- |
 | ![Pergunta](screenshots/02-pergunta.png) | ![Resultado](screenshots/03-resultado.png) |
+
+<p align="center"><img src="screenshots/05-faculdades.png" alt="Cartão de faculdade com pontos fortes, pontos de atenção e alerta de bolsas" width="420"></p>
 
 ## Faculdades: o que é verificado e o que não é
 
