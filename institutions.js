@@ -133,6 +133,240 @@ const INSTITUTIONS = [
     ]
   },
 
+  {
+    id: 'ufsc',
+    name: 'Universidade Federal de Santa Catarina (UFSC)',
+    short: 'UFSC',
+    type: 'public',
+    city: 'Florianópolis (SC) e outros campi',
+    states: ['SC'],
+    verifiedAt: '2026-10-24',
+    courses: ['Medicina', 'Direito', 'Psicologia', 'Enfermagem', 'Nutrição', 'Letras', 'Educação Física', 'Jornalismo', 'Design'],
+    quality: { igc: 5, value: 4.349, year: 2022, text: 'IGC 5 (4,349) no ciclo de 2022.' },
+    method: { tags: ['m_theory'], verified: false, text: 'Universidade de pesquisa: ensino, pesquisa e extensão. Não confirmamos o método por curso.' },
+    strengths: [
+      'IGC 5 (4,349) em 2022.',
+      'Gratuita, com cursos em Florianópolis e em outros campi.'
+    ],
+    cautions: [
+      'A lista de cursos vem de uma fonte de 2021 e é parcial: cursos de outras áreas podem existir e não aparecer aqui.',
+      'Medicina é oferecida em Florianópolis e em Araranguá; confirme em qual campus fica a vaga que você quer.',
+      'Ingresso por processo seletivo competitivo e com vagas limitadas.'
+    ],
+    scholarships: {
+      headline: 'Gratuita',
+      items: ['Veja no edital as vagas reservadas (cotas) e o apoio estudantil.']
+    },
+    sources: [
+      { t: 'Cursos da UFSC (Estratégia, atualizado em 18/08/2021)', url: 'https://vestibulares.estrategia.com/portal/enem-e-vestibulares/vestibulares/ufsc-cursos/' },
+      { t: 'IGC 2022: os 50 maiores (Quero Bolsa)', url: 'https://querobolsa.com.br/revista/50-melhores-faculdades-do-brasil-segundo-o-mec' }
+    ]
+  },
+  {
+    id: 'unb',
+    name: 'Universidade de Brasília (UnB)',
+    short: 'UnB',
+    type: 'public',
+    city: 'Brasília (DF)',
+    states: ['DF'],
+    verifiedAt: '2026-10-24',
+    courses: ['Medicina', 'Direito', 'Psicologia', 'Enfermagem', 'Nutrição', 'Pedagogia', 'Letras', 'Educação Física', 'Design', 'Arquitetura e Urbanismo', 'Administração', 'Ciências Contábeis', 'Ciências Biológicas', 'Ciência da Computação', 'Engenharia Civil', 'Engenharia Elétrica', 'Engenharia de Produção'],
+    quality: { igc: 5, value: 4.179, year: 2022, text: 'IGC 5 (4,179) no ciclo de 2022.' },
+    method: { tags: ['m_theory'], verified: false, text: 'Universidade de pesquisa: ensino, pesquisa e extensão. Não confirmamos o método por curso.' },
+    strengths: [
+      'IGC 5 (4,179) em 2022.',
+      'Gratuita e com ampla lista de cursos.'
+    ],
+    cautions: [
+      'A lista de cursos vem de uma fonte de 2018; confirme no e-MEC e no site da UnB.',
+      'Jornalismo e Sistemas de Informação não aparecem na lista consultada, mas isso pode ser limitação da fonte.',
+      'Ingresso por processo seletivo competitivo e com vagas limitadas.'
+    ],
+    scholarships: {
+      headline: 'Gratuita',
+      items: ['Veja no edital as vagas reservadas (cotas) e o apoio estudantil.']
+    },
+    sources: [
+      { t: 'Cursos da UnB (Guia da Carreira, 28/07/2018)', url: 'https://www.guiadacarreira.com.br/blog/unb-cursos' },
+      { t: 'IGC 2022: os 50 maiores (Quero Bolsa)', url: 'https://querobolsa.com.br/revista/50-melhores-faculdades-do-brasil-segundo-o-mec' }
+    ]
+  },
+  {
+    id: 'ufpr',
+    name: 'Universidade Federal do Paraná (UFPR)',
+    short: 'UFPR',
+    type: 'public',
+    city: 'Curitiba (PR) e outros campi',
+    states: ['PR'],
+    verifiedAt: '2026-10-24',
+    courses: ['Medicina', 'Direito', 'Psicologia', 'Enfermagem', 'Nutrição', 'Pedagogia', 'Letras', 'Educação Física', 'Jornalismo', 'Arquitetura e Urbanismo', 'Ciências Contábeis', 'Ciências Biológicas', 'Ciência da Computação', 'Engenharia Civil', 'Engenharia Elétrica', 'Engenharia de Produção', 'Análise e Desenvolvimento de Sistemas'],
+    quality: { igc: 5, value: 4.154, year: 2022, text: 'IGC 5 (4,154) no ciclo de 2022.' },
+    method: { tags: ['m_theory'], verified: false, text: 'Universidade de pesquisa: ensino, pesquisa e extensão. Não confirmamos o método por curso.' },
+    strengths: [
+      'IGC 5 (4,154) em 2022.',
+      'Gratuita, e é uma das poucas opções públicas deste guia com Análise e Desenvolvimento de Sistemas (curso tecnológico).'
+    ],
+    cautions: [
+      'A lista de cursos é de outubro de 2023; confirme no site da UFPR.',
+      'Na fonte, Administração aparece só como Administração Pública, e Design como Design de Produto e Design Gráfico, então não os incluímos.',
+      'Ingresso por processo seletivo competitivo e com vagas limitadas.'
+    ],
+    scholarships: {
+      headline: 'Gratuita',
+      items: ['Veja no edital as vagas reservadas (cotas) e o apoio estudantil.']
+    },
+    sources: [
+      { t: 'Cursos da UFPR (Estratégia, atualizado em 06/10/2023)', url: 'https://vestibulares.estrategia.com/portal/enem-e-vestibulares/vestibulares/cursos-ufpr/' },
+      { t: 'IGC 2022: os 50 maiores (Quero Bolsa)', url: 'https://querobolsa.com.br/revista/50-melhores-faculdades-do-brasil-segundo-o-mec' }
+    ]
+  },
+
+  {
+    id: 'ufrj',
+    name: 'Universidade Federal do Rio de Janeiro (UFRJ)',
+    short: 'UFRJ',
+    type: 'public',
+    city: 'Rio de Janeiro (RJ)',
+    states: ['RJ'],
+    verifiedAt: '2026-10-25',
+    courses: ['Medicina', 'Direito', 'Psicologia', 'Enfermagem', 'Nutrição', 'Pedagogia', 'Letras', 'Educação Física', 'Arquitetura e Urbanismo', 'Administração', 'Ciências Contábeis', 'Ciências Biológicas', 'Ciência da Computação', 'Engenharia de Produção'],
+    quality: { igc: 5, value: 4.208, year: 2022, text: 'IGC 5 (4,208) no ciclo de 2022.' },
+    method: { tags: ['m_theory'], verified: false, text: 'Universidade de pesquisa: ensino, pesquisa e extensão. Não confirmamos o método por curso.' },
+    strengths: [
+      'IGC 5 (4,208) em 2022.',
+      'Gratuita e com ampla lista de cursos.'
+    ],
+    cautions: [
+      'A lista de cursos vem de uma fonte de 2021, atualizada em 2022; confirme no site da UFRJ.',
+      'Jornalismo, Design, Sistemas de Informação e as engenharias Civil e Elétrica não aparecem na fonte (Design aparece só como Comunicação Visual Design e Desenho Industrial), mas isso pode ser limitação dela.',
+      'Ingresso por processo seletivo competitivo e com vagas limitadas.'
+    ],
+    scholarships: {
+      headline: 'Gratuita',
+      items: ['Veja no edital as vagas reservadas (cotas) e o apoio estudantil.']
+    },
+    sources: [
+      { t: 'UFRJ: como entrar, cursos e mais (Estratégia, atualizado em 22/09/2022)', url: 'https://vestibulares.estrategia.com/portal/enem-e-vestibulares/vestibulares/ufrj/' },
+      { t: 'IGC 2022: os 50 maiores (Quero Bolsa)', url: 'https://querobolsa.com.br/revista/50-melhores-faculdades-do-brasil-segundo-o-mec' }
+    ]
+  },
+  {
+    id: 'ufpe',
+    name: 'Universidade Federal de Pernambuco (UFPE)',
+    short: 'UFPE',
+    type: 'public',
+    city: 'Recife (PE) e outros campi',
+    states: ['PE'],
+    verifiedAt: '2026-10-25',
+    courses: ['Medicina', 'Direito', 'Psicologia', 'Enfermagem', 'Nutrição', 'Pedagogia', 'Letras', 'Educação Física', 'Jornalismo', 'Design', 'Arquitetura e Urbanismo', 'Administração', 'Ciências Contábeis', 'Ciências Biológicas', 'Ciência da Computação', 'Sistemas de Informação', 'Engenharia Civil', 'Engenharia Elétrica', 'Engenharia de Produção'],
+    quality: { igc: 5, value: 4.033, year: 2022, text: 'IGC 5 (4,033) no ciclo de 2022.' },
+    method: { tags: ['m_theory'], verified: false, text: 'Universidade de pesquisa: ensino, pesquisa e extensão. Não confirmamos o método por curso.' },
+    strengths: [
+      'IGC 5 (4,033) em 2022.',
+      'Gratuita, com cerca de 100 cursos de graduação e cerca de 7 mil vagas pelo Sisu (página de janeiro de 2026).',
+      'Uma das opções do Nordeste com lista de cursos atualizada em 2026.'
+    ],
+    cautions: [
+      'Alguns cursos ficam em outros campi (como o do Sertão); confirme onde fica o seu.',
+      'Ingresso pelo Sisu, com notas de corte que variam muito por curso.'
+    ],
+    scholarships: {
+      headline: 'Gratuita',
+      items: ['Ingresso pelo Sisu. Veja no edital as vagas reservadas (cotas) e o apoio estudantil.']
+    },
+    sources: [
+      { t: 'UFPE: Sisu, cursos e vagas (Estratégia, atualizado em 12/01/2026)', url: 'https://vestibulares.estrategia.com/portal/enem-e-vestibulares/ufpe-sisu-cursos-vagas-como-ingressar-e-muito-mais' },
+      { t: 'IGC 2022: os 50 maiores (Quero Bolsa)', url: 'https://querobolsa.com.br/revista/50-melhores-faculdades-do-brasil-segundo-o-mec' }
+    ]
+  },
+  {
+    id: 'ufc',
+    name: 'Universidade Federal do Ceará (UFC)',
+    short: 'UFC',
+    type: 'public',
+    city: 'Fortaleza (CE) e outros campi',
+    states: ['CE'],
+    verifiedAt: '2026-10-25',
+    courses: ['Medicina', 'Direito', 'Psicologia', 'Enfermagem', 'Pedagogia', 'Letras', 'Educação Física', 'Jornalismo', 'Design', 'Arquitetura e Urbanismo', 'Administração', 'Ciências Contábeis', 'Ciências Biológicas', 'Ciência da Computação', 'Sistemas de Informação', 'Engenharia Civil', 'Engenharia Elétrica', 'Engenharia de Produção', 'Ciência de Dados'],
+    quality: { igc: null, text: 'Nota do MEC (IGC) não localizada nas listas consultadas (a UFC não está entre os 50 maiores índices de 2022 na fonte usada).' },
+    method: { tags: ['m_theory'], verified: false, text: 'Universidade de pesquisa: ensino, pesquisa e extensão. Não confirmamos o método por curso.' },
+    strengths: [
+      'Gratuita, com ampla lista de cursos atualizada em janeiro de 2026, incluindo Ciência de Dados.',
+      'Uma das poucas opções públicas deste guia com Ciência de Dados.'
+    ],
+    cautions: [
+      'Nota do MEC não localizada, então não dá para comparar por esse índice.',
+      'Nutrição não aparece na lista consultada.',
+      'Ingresso pelo Sisu, com notas de corte que variam muito por curso.'
+    ],
+    scholarships: {
+      headline: 'Gratuita',
+      items: ['Veja no edital as vagas reservadas (cotas) e o apoio estudantil.']
+    },
+    sources: [
+      { t: 'UFC: Sisu, cursos e vagas (Estratégia, atualizado em 12/01/2026)', url: 'https://vestibulares.estrategia.com/portal/enem-e-vestibulares/ufc-sisu-cursos-vagas-como-ingressar-e-muito-mais/' }
+    ]
+  },
+  {
+    id: 'ufba',
+    name: 'Universidade Federal da Bahia (UFBA)',
+    short: 'UFBA',
+    type: 'public',
+    city: 'Salvador (BA)',
+    states: ['BA'],
+    verifiedAt: '2026-10-25',
+    courses: ['Medicina', 'Administração'],
+    quality: { igc: 5, value: 4.093, year: 2022, text: 'IGC 5 (4,093) no ciclo de 2022.' },
+    method: { tags: ['m_theory'], verified: false, text: 'Universidade de pesquisa: ensino, pesquisa e extensão. Não confirmamos o método por curso.' },
+    strengths: [
+      'IGC 5 (4,093) em 2022.',
+      'Gratuita e com cerca de 140 cursos de graduação, segundo uma das fontes.'
+    ],
+    cautions: [
+      'A lista aqui é muito parcial: só Medicina e Administração apareceram de forma explícita nas fontes consultadas. A UFBA oferece muito mais cursos; confirme o seu no site.',
+      'As fontes não trazem data de atualização.',
+      'Ingresso por processo seletivo competitivo e com vagas limitadas.'
+    ],
+    scholarships: {
+      headline: 'Gratuita',
+      items: ['Veja no edital as vagas reservadas (cotas) e o apoio estudantil.']
+    },
+    sources: [
+      { t: 'UFBA: notas de corte e cursos (Guia da Carreira, sem data visível)', url: 'https://www.guiadacarreira.com.br/faculdades/ufba-universidade-federal-da-bahia' },
+      { t: 'UFBA (Quero Bolsa, sem data visível)', url: 'https://querobolsa.com.br/ufba-universidade-federal-da-bahia/guia-da-faculdade' },
+      { t: 'IGC 2022: os 50 maiores (Quero Bolsa)', url: 'https://querobolsa.com.br/revista/50-melhores-faculdades-do-brasil-segundo-o-mec' }
+    ]
+  },
+  {
+    id: 'unesp',
+    name: 'Universidade Estadual Paulista (Unesp)',
+    short: 'Unesp',
+    type: 'public',
+    city: 'Vários campi no interior de SP',
+    states: ['SP'],
+    verifiedAt: '2026-10-25',
+    courses: ['Medicina', 'Direito', 'Psicologia', 'Enfermagem', 'Nutrição', 'Pedagogia', 'Letras', 'Educação Física', 'Jornalismo', 'Design', 'Arquitetura e Urbanismo', 'Administração', 'Ciências Biológicas', 'Ciência da Computação', 'Sistemas de Informação', 'Engenharia Civil', 'Engenharia Elétrica', 'Engenharia de Produção'],
+    quality: { igc: 5, value: 4.227, year: 2022, text: 'IGC 5 (4,227) no ciclo de 2022.' },
+    method: { tags: ['m_theory'], verified: false, text: 'Universidade de pesquisa: ensino, pesquisa e extensão. Não confirmamos o método por curso.' },
+    strengths: [
+      'IGC 5 (4,227) em 2022.',
+      'Gratuita, com campi espalhados pelo interior de São Paulo, o que dá opções fora da capital.'
+    ],
+    cautions: [
+      'Cada curso fica em campi específicos (por exemplo, Medicina em Botucatu e Direito em Franca); confirme a cidade antes de decidir.',
+      'A lista de cursos vem de uma fonte de 2021; confirme no site da Unesp.',
+      'Ciências Contábeis não aparece na fonte consultada.'
+    ],
+    scholarships: {
+      headline: 'Gratuita',
+      items: ['Veja no edital as vagas reservadas (cotas) e o apoio estudantil.']
+    },
+    sources: [
+      { t: 'Cursos da Unesp (Estratégia, atualizado em 18/08/2021)', url: 'https://vestibulares.estrategia.com/portal/enem-e-vestibulares/vestibulares/unesp-cursos/' },
+      { t: 'IGC 2022: os 50 maiores (Quero Bolsa)', url: 'https://querobolsa.com.br/revista/50-melhores-faculdades-do-brasil-segundo-o-mec' }
+    ]
+  },
+
   /* ---------------------------------------------------------------- PRIVADAS */
   {
     id: 'insper',
@@ -308,6 +542,182 @@ const INSTITUTIONS = [
     sources: [
       { t: 'Vestibular PUCRS: saiba tudo (Blog do Enem, 2014, atualizado em 2021)', url: 'https://blogdoenem.com.br/?p=29404' },
       { t: 'As melhores IES privadas do Brasil, segundo o Inep (Fundacred, IGC 2022)', url: 'https://instituicao.fundacred.org.br/news/as-melhores-ies-privadas-do-brasil-segundo-o-inep' }
+    ]
+  },
+  {
+    id: 'pucsp',
+    name: 'Pontifícia Universidade Católica de São Paulo (PUC-SP)',
+    short: 'PUC-SP',
+    type: 'private',
+    city: 'São Paulo e Sorocaba (SP)',
+    states: ['SP'],
+    verifiedAt: '2026-10-24',
+    courses: ['Medicina', 'Direito', 'Psicologia', 'Enfermagem', 'Pedagogia', 'Letras', 'Jornalismo', 'Administração', 'Ciências Contábeis', 'Ciência da Computação'],
+    quality: { igc: 5, year: 2022, text: 'IGC 5 em 2022, na lista das 32 instituições privadas com nota máxima (valor contínuo não informado).' },
+    method: { tags: [], verified: false, text: 'Não confirmamos o método de ensino nas páginas consultadas.' },
+    strengths: [
+      'IGC 5 em 2022, entre as 32 instituições privadas com nota máxima.',
+      'Edital de bolsas de 2026 com 42 bolsas integrais para ingressantes (renda familiar per capita de até 1,5 salário mínimo).',
+      'Também participa do ProUni e tem bolsa de mérito acadêmico.'
+    ],
+    cautions: [
+      'As bolsas FUNDASP dependem da classificação no processo seletivo de verão (ou da nota do Enem, no processo complementar).',
+      'Bolsa parcial de 50% só é dada se sobrarem bolsas integrais, e apenas a ingressantes do processo seletivo de verão.',
+      'Não incluímos aqui outros cursos que a fonte lista (como as engenharias e Sistemas de Informação), porque não conseguimos confirmá-los. Confirme no site da PUC-SP.',
+      'A lista de cursos e a bolsa de mérito vêm de uma página publicada em 2014 e atualizada em 2020.'
+    ],
+    scholarships: {
+      own: true,
+      headline: 'Tem programa de bolsas',
+      items: [
+        'Bolsas FUNDASP (edital do 1º semestre de 2026): 42 integrais (30% delas para pretos, pardos e indígenas), para renda familiar per capita de até 1,5 salário mínimo (R$ 2.431,50).',
+        'Bolsa parcial de 50% para renda de até 3 salários mínimos (R$ 4.863,00), concedida se sobrarem bolsas integrais.',
+        'ProUni e Fies. Bolsa Mérito Acadêmico: integral ao 1º colocado do vestibular de verão em cada campus (fonte de 2020, a confirmar).'
+      ]
+    },
+    sources: [
+      { t: 'Edital de bolsas FUNDASP, graduação, ingressantes 1º semestre de 2026', url: 'https://fundasp.org.br/publicacoes/editais/arquivos/2026/edital-de-bolsas-fundasp-graduacao-1deg-semestre-2026-alunos-ingressantes.pdf' },
+      { t: 'Vestibular PUC-SP: saiba tudo (Blog do Enem, 2014, atualizado em 18/11/2020)', url: 'https://blogdoenem.com.br/vestibular-puc-sp-saiba-tudo/' },
+      { t: 'As melhores IES privadas do Brasil, segundo o Inep (Fundacred, IGC 2022)', url: 'https://instituicao.fundacred.org.br/news/as-melhores-ies-privadas-do-brasil-segundo-o-inep' }
+    ]
+  },
+  {
+    id: 'pucrio',
+    name: 'Pontifícia Universidade Católica do Rio de Janeiro (PUC-Rio)',
+    short: 'PUC-Rio',
+    type: 'private',
+    city: 'Rio de Janeiro (RJ)',
+    states: ['RJ'],
+    verifiedAt: '2026-10-24',
+    courses: ['Administração', 'Arquitetura e Urbanismo', 'Ciência da Computação', 'Design', 'Letras'],
+    quality: { igc: 5, value: 4.006, year: 2022, text: 'IGC 5 (4,006) em 2022, na lista dos 50 maiores índices e entre as privadas com nota máxima.' },
+    method: { tags: [], verified: false, text: 'Não confirmamos o método de ensino nas páginas consultadas.' },
+    strengths: [
+      'IGC 5 (4,006) em 2022.',
+      'Cerca de 33 cursos de graduação, segundo uma fonte de 2021.',
+      'Participa do ProUni e, segundo uma matéria de 2016, tem bolsas de mérito, monitoria, iniciação científica e filantrópicas.'
+    ],
+    cautions: [
+      'A lista de cursos é parcial: só aparecem os que constavam na página consultada. Outros cursos (como Direito e Psicologia) podem existir; confira no site da PUC-Rio.',
+      'Não encontramos o edital atual de bolsas, nem percentuais; os tipos de bolsa vêm de uma matéria de 2016.',
+      'Valores de mensalidade não constam nas fontes consultadas.'
+    ],
+    scholarships: {
+      own: true,
+      headline: 'Tem programa de bolsas',
+      items: [
+        'ProUni, com bolsas integrais e parciais.',
+        'Bolsas próprias citadas em matéria de 2016: mérito (vestibular ou Enem), monitoria, iniciação científica, filantrópicas e financiamento para baixa renda. Percentuais não informados.'
+      ]
+    },
+    sources: [
+      { t: 'Cursos da PUC-Rio (Quero Bolsa, sem data visível)', url: 'https://querobolsa.com.br/puc-rio/guia-da-faculdade' },
+      { t: 'Formas de conseguir bolsas (Na Prática, 25/10/2016, atualizada em 2025)', url: 'https://napratica.org.br/bolsas-para-faculdade' },
+      { t: 'IGC 2022: os 50 maiores (Quero Bolsa)', url: 'https://querobolsa.com.br/revista/50-melhores-faculdades-do-brasil-segundo-o-mec' }
+    ]
+  },
+  {
+    id: 'espm',
+    name: 'ESPM — Escola Superior de Propaganda e Marketing',
+    short: 'ESPM',
+    type: 'private',
+    city: 'São Paulo, Rio de Janeiro, Porto Alegre e Florianópolis',
+    states: ['SP', 'RJ', 'RS', 'SC'],
+    verifiedAt: '2026-10-24',
+    courses: ['Administração', 'Design', 'Jornalismo'],
+    quality: { igc: null, text: 'Nota do MEC (IGC) não localizada nas listas consultadas.' },
+    method: { tags: [], verified: false, text: 'Não confirmamos o método de ensino nas páginas consultadas.' },
+    strengths: [
+      'Foco em comunicação, negócios e design, com 8 campi (4 em São Paulo, 2 no Rio de Janeiro, 1 em Porto Alegre e 1 em Florianópolis).',
+      'Bolsa de Estudos ESPM de 50% ou 100%, sem devolução, por renda e classificação (edital do 2º semestre de 2026).',
+      'Bolsa Enem de 100% para renda per capita de até 1,5 salário mínimo.'
+    ],
+    cautions: [
+      'Poucos cursos neste guia (Administração, Design e Jornalismo). Marketing aparece só como MBA e curso a distância, não como graduação.',
+      'A bolsa parcial de 30%, 50% ou 70% é restituível: exige fiador e a devolução é feita após a formatura, sem juros, com correção pelo IPCA.',
+      'A mensalidade média citada (cerca de R$ 4.000) vem de uma página de 2019 e pode ter mudado.',
+      'A lista de cursos vem da mesma página de 2019; confirme no site da ESPM.',
+      'Nota oficial (IGC) não localizada.'
+    ],
+    scholarships: {
+      own: true,
+      headline: 'Tem programa de bolsas',
+      items: [
+        'Bolsa de Estudos ESPM: 100% para renda per capita de até 1,5 salário mínimo e 50% de 1,5 a 3 salários mínimos; considera também a classificação no vestibular. Sem devolução.',
+        'Bolsa do processo seletivo Enem: 100%, para renda per capita de até 1,5 salário mínimo e conforme a nota no Enem.',
+        'Bolsa Parcial Restituível: 30%, 50% ou 70%, para renda familiar per capita de 2 a 5 salários mínimos, com fiador.'
+      ]
+    },
+    sources: [
+      { t: 'FAQ de bolsas para calouros, bacharelado, 2026.2 (ESPM)', url: 'https://www.espm.br/wp-content/uploads/FAQ-Bolsas-para-calouros-BACHARELADO-26-2-Documento-Final.pdf' },
+      { t: 'Cursos da ESPM (Guia da Carreira, 26/09/2019)', url: 'https://www.guiadacarreira.com.br/blog/espm-cursos' }
+    ]
+  },
+  {
+    id: 'maua',
+    name: 'Instituto Mauá de Tecnologia (IMT)',
+    short: 'Mauá',
+    type: 'private',
+    city: 'São Caetano do Sul e São Paulo (SP)',
+    states: ['SP'],
+    verifiedAt: '2026-10-25',
+    courses: ['Administração', 'Design', 'Arquitetura e Urbanismo', 'Ciência da Computação', 'Sistemas de Informação', 'Análise e Desenvolvimento de Sistemas', 'Ciência de Dados'],
+    quality: { igc: null, text: 'Nota do MEC (IGC) não localizada nas listas consultadas.' },
+    method: { tags: ['m_proj'], verified: false, text: 'A matéria consultada diz apenas que Ciência da Computação e Sistemas de Informação, em São Paulo, incluem integração a projetos em laboratórios do IMT, e que o curso de ADS tem carga horária híbrida.' },
+    strengths: [
+      'Além de engenharias, tem cursos de computação e dados: Ciência da Computação, Sistemas de Informação, ADS e Inteligência Artificial e Ciência de Dados.',
+      'Programa de Excelência Acadêmica (vestibular de verão 2026): até 50 bolsas, sendo 10 integrais e 40 de 50%.',
+      'Em Ciência da Computação e Sistemas de Informação (campus São Paulo), há integração com projetos em laboratórios.'
+    ],
+    cautions: [
+      'Essas bolsas são por nota: prova com nota final de 7,0 ou mais, ou Enem com 700 pontos ou mais. O edital não menciona renda.',
+      'Quem entra por transferência ou já tem diploma de ensino superior não concorre a essas bolsas.',
+      'Oferece engenharias, que não incluímos aqui porque a fonte não detalha quais; confirme no site.',
+      'Valores de mensalidade não constam nas fontes consultadas, e não há IGC localizado.'
+    ],
+    scholarships: {
+      own: true,
+      headline: 'Tem programa de bolsas',
+      items: [
+        'Programa de Excelência Acadêmica (edital 12/2025): 10 bolsas integrais e 40 de 50%, por nota. Sem menção a devolução no edital.',
+        'O Mauá publica outros editais de bolsas; consulte o site para os vigentes.'
+      ]
+    },
+    sources: [
+      { t: 'Edital 12/2025, Programa de Excelência Acadêmica, vestibular de verão 2026 (Mauá)', url: 'https://maua.br/img/upload/bolsas-de-estudo-do-programa-de-excelencia-academica-para-ingressantes-pelo-vestibular-de-verao-2026-1757715817.pdf' },
+      { t: 'Instituto Mauá de Tecnologia tem inscrições abertas para 2026 (CNN Brasil, 09/09/2025)', url: 'https://www.cnnbrasil.com.br/educacao/instituto-maua-de-tecnologia-tem-inscricoes-abertas-para-ingresso-em-2026/' }
+    ]
+  },
+  {
+    id: 'einstein',
+    name: 'Faculdade Israelita de Ciências da Saúde Albert Einstein',
+    short: 'Einstein',
+    type: 'private',
+    city: 'São Paulo (SP)',
+    states: ['SP'],
+    verifiedAt: '2026-10-25',
+    courses: ['Medicina', 'Enfermagem', 'Psicologia', 'Administração', 'Nutrição'],
+    quality: { igc: null, text: 'Nota do MEC (IGC) não localizada nas listas consultadas.' },
+    method: { tags: [], verified: false, text: 'Não confirmamos o método de ensino nas páginas consultadas.' },
+    strengths: [
+      'Foco em saúde: 660 vagas em 8 cursos (vestibular 2026), com Medicina (120 vagas), Enfermagem (160), Psicologia (60), Nutrição (60), Administração (70) e outros.',
+      'Medicina inclui as Múltiplas Minientrevistas (MME) como segunda fase da seleção.',
+      'Aceita prova própria, nota do Enem de 2023 ou 2024 e currículos internacionais (IB e Abitur).'
+    ],
+    cautions: [
+      'Não encontramos informações de bolsas nem de mensalidade nas fontes consultadas. Consulte o manual do candidato e o site antes de decidir.',
+      'Taxa de inscrição de R$ 250 em Medicina e R$ 174 nos demais cursos, sem previsão de isenção (vestibular 2026).',
+      'Poucos cursos, quase todos de saúde. Nota oficial (IGC) não localizada.'
+    ],
+    scholarships: {
+      own: false,
+      headline: 'Sem programa próprio de bolsas confirmado',
+      items: [
+        'As fontes consultadas não trazem bolsas, mensalidade nem financiamento. Isso não prova que não existam: consulte o manual do candidato e o site da faculdade.'
+      ]
+    },
+    sources: [
+      { t: 'Vestibular Albert Einstein 2026: edital (Estratégia, 15/07/2025, atualizado em 25/08/2025)', url: 'https://portal.estrategia.com/vestibular-e-enem/vestibulares/vestibular-albert-einstein-2026-saiba-tudo-sobre-o-edital/' }
     ]
   }
 ];
