@@ -107,35 +107,6 @@ Em `data.js`, copie um objeto da lista `courses` e ajuste `name`, `desc`, `tags`
 - Não considera grades curriculares, sua situação financeira nem o mercado de trabalho da sua região.
 - As afinidades entre respostas e cursos foram definidas manualmente e são simplificadas.
 
-## Publicar de graça
-
-**GitHub Pages:** suba os arquivos para um repositório, vá em *Settings → Pages* e escolha a branch `main` na pasta raiz.
-**Netlify ou Vercel:** arraste a pasta do projeto ou conecte o repositório; não há etapa de build.
-
-Depois de publicar, troque `og-image.png` em `index.html` pela URL completa da imagem (por exemplo `https://seu-usuario.github.io/cursoshub/og-image.png`) para a pré-visualização funcionar nas redes sociais.
-
-## Publicar no Streamlit
-
-O Streamlit roda Python, e este site é HTML/CSS/JS. Por isso o `streamlit_app.py` lê os arquivos, junta tudo em uma página só e a exibe dentro do app com `st.iframe` (em versões antigas, `st.components.v1.html`). Nada do site precisa ser reescrito.
-
-```bash
-pip install -r requirements.txt
-streamlit run streamlit_app.py     # teste local, normalmente em http://localhost:8501
-```
-
-Para publicar de graça no Streamlit Community Cloud:
-
-1. Suba a pasta inteira para um repositório no GitHub (os arquivos `.html`, `.css` e `.js` têm de ficar na mesma pasta do `streamlit_app.py`).
-2. Entre em [share.streamlit.io](https://share.streamlit.io), clique em *Create app* e escolha o repositório, a branch `main` e o arquivo principal `streamlit_app.py`.
-3. Clique em *Deploy*. O endereço sai no formato `https://seu-app.streamlit.app`.
-
-Diferenças em relação ao site comum:
-
-- O site fica dentro de um quadro de altura fixa (1500 px, ajustável no fim do `streamlit_app.py`) e rola dentro dele.
-- O botão **Copiar link do resultado** some, porque o quadro não tem endereço próprio. O botão de resumo continua funcionando.
-- As meta tags de compartilhamento (`og:image`) não valem no Streamlit, porque o Streamlit controla o `<head>` da página.
-- Se a ideia é só ter um link público do site, o GitHub Pages (acima) mantém tudo funcionando, inclusive o link compartilhável.
-
 ## Ideias para o futuro
 
 - Mais cursos e pesos ajustados com a ajuda de estudantes e profissionais.
